@@ -16,7 +16,8 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Optics.Encoding.Class, Optics.Encoding.ConcreteLens, Optics.Encoding.LinearLens,
-                       Optics.Encoding.CoendLens, Optics.Encoding.ProfunctorLens
+                       Optics.Encoding.CoendLens, Optics.Encoding.ProfunctorLens,
+                       Optics.Encoding.IOLens
   build-depends:       base >= 4.7 && < 5, profunctors
   default-language:    Haskell2010
 
